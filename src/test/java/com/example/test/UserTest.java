@@ -13,7 +13,7 @@ public class UserTest {
 
 
     @BeforeEach
-    public void newObject (String[] args) {
+    public void newObject () {
         user1 = new User("login", "email@mail.ru");
         user2 = new User();
         user3 = new User("login", "emailmailru");
